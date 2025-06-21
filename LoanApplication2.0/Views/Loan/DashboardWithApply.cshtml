@@ -1,0 +1,186 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CBLOS - Corporate Banking Loan Origination System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Corporate Banking Loan Origination System" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=wrap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="~/css/Mainpage.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="vista-nav">
+        <div class="container">
+            <a href="#" class="brand">CBLOS</a>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#calculator" class="nav-link">Calculator</a></li>
+                <li><a href="/Loan/Apply" class="nav-link">Apply</a></li>
+                @if (ViewBag.HasLoans != null && (bool)ViewBag.HasLoans)
+                {
+                    <li><a href="/Client/MyLoans" class="nav-link">My Loans</a></li>
+                }
+                <li><a href="/Loan/Support" class="nav-link">Support</a></li>
+                <!-- For client logout -->
+                <a href="/ClientAuth/Logout" class="nav-link">Logout</a>
+
+            
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container">
+        <div class="hero-section">
+            <h1 class="hero-title vista-title">
+                Welcome to Corporate Banking<br />
+                Loan Origination System
+            </h1>
+            <p class="hero-subtitle">
+            </p>
+            <a href="/Loan/Apply" class="vista-btn vista-btn-lg">
+                Apply for a Loan
+                <span>→</span>
+            </a>
+            
+        </div>
+    </div>
+
+    <!-- Loan Types Section -->
+    <div class="container">
+        <h2 class="section-title vista-title">
+            Explore Loan Options
+        </h2>
+        <div class="grid grid-cols-3">
+            <!-- Working Capital Loan -->
+            <div class="vista-card">
+                <div class="loan-card-header">
+                    <div class="loan-icon">
+                        <span>📈</span>
+                    </div>
+                    <div class="loan-card-content">
+                        <h3>Working Capital Loan</h3>
+                        <p>Short-term financing to meet daily operational needs and enhance cash flow.</p>
+                    </div>
+                </div>
+                <button class="vista-btn-outline vista-btn-sm" onclick="toggleDetails('workingCapital')">
+                    <span id="workingCapitalBtn">Read more</span>
+                    <span id="workingCapitalIcon">▼</span>
+                </button>
+                <div id="workingCapitalDetails" class="loan-details">
+                    <p>Ideal for businesses needing liquidity for salaries, rent, and expenses. Short-term with flexible repayment schedules.</p>
+                </div>
+            </div>
+
+            <!-- Term Loan -->
+            <div class="vista-card">
+                <div class="loan-card-header">
+                    <div class="loan-icon">
+                        <span>🏢</span>
+                    </div>
+                    <div class="loan-card-content">
+                        <h3>Term Loan</h3>
+                        <p>Long-term funding for purchasing fixed assets or business expansion.</p>
+                    </div>
+                </div>
+                <button class="vista-btn-outline vista-btn-sm" onclick="toggleDetails('termLoan')">
+                    <span id="termLoanBtn">Read more</span>
+                    <span id="termLoanIcon">▼</span>
+                </button>
+                <div id="termLoanDetails" class="loan-details">
+                    <p>Capital for investments like equipment, land, or infrastructure, with fixed monthly payments.</p>
+                </div>
+            </div>
+
+            <!-- Project Finance -->
+            <div class="vista-card">
+                <div class="loan-card-header">
+                    <div class="loan-icon">
+                        <span>🏭</span>
+                    </div>
+                    <div class="loan-card-content">
+                        <h3>Project Finance</h3>
+                        <p>Financing large-scale infrastructure or industrial projects.</p>
+                    </div>
+                </div>
+                <button class="vista-btn-outline vista-btn-sm" onclick="toggleDetails('projectFinance')">
+                    <span id="projectFinanceBtn">Read more</span>
+                    <span id="projectFinanceIcon">▼</span>
+                </button>
+                <div id="projectFinanceDetails" class="loan-details">
+                    <p>Supports projects like energy plants or highways, repaid through project cash flow.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loan Eligibility Calculator -->
+    <div class="container mt-5" id="calculator">
+        <h2 class="section-title vista-title">
+            Loan Eligibility Calculator
+        </h2>
+
+        <div class="vista-card">
+            <div class="loan-card-header">
+                <div class="loan-icon">
+                    <span>🧮</span>
+                </div>
+                <div class="loan-card-content">
+                    <h3>Check Your Eligibility</h3>
+                </div>
+            </div>
+
+            <form id="eligibilityForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="annualRevenue" class="form-label">Annual Revenue (INR)</label>
+                        <input type="number" id="annualRevenue" class="vista-input" placeholder="Enter annual revenue" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="existingLoans" class="form-label">Existing Loans (INR)</label>
+                        <input type="number" id="existingLoans" class="vista-input" placeholder="Enter existing loans" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="requestedLoan" class="form-label">Requested Loan (INR)</label>
+                        <input type="number" id="requestedLoan" class="vista-input" placeholder="Enter requested amount" required />
+                    </div>
+                </div>
+
+                <button type="submit" class="vista-btn vista-btn-success">
+                    Check Eligibility
+                </button>
+            </form>
+
+            <div id="result" class="hidden"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p style="color: rgb(55, 65, 81); font-weight: 500;">
+                © 2025 CBLOS | Designed by Corporate IT Team
+            </p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Terms of Service</a>
+                <a href="#" class="footer-link">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/Mainpage.js"></script>
+</body>
+</html>

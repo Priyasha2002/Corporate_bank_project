@@ -1,0 +1,134 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome - Loan Application System</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            background: #f6f7fa;
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .center-card {
+            max-width: 900px;
+            margin: 48px auto;
+            background: #fff;
+            border-radius: 24px;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.12), 0 1.5px 6px rgba(0,0,0,0.04);
+            padding: 56px 40px 48px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-title {
+            color: #1877f2;
+            font-size: 2.8rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+            line-height: 1.15;
+        }
+
+        .subtitle {
+            color: #555;
+            font-size: 1.25rem;
+            margin-bottom: 48px;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .login-options {
+            display: flex;
+            gap: 48px;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .login-btn {
+            background: #fcfcff;
+            border-radius: 18px;
+            box-shadow: 0 2px 16px rgba(24,119,242,0.08);
+            padding: 40px 48px 32px 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            transition: box-shadow 0.2s, transform 0.18s;
+            min-width: 260px;
+            border: none;
+            outline: none;
+        }
+
+            .login-btn:hover, .login-btn:focus {
+                box-shadow: 0 8px 32px rgba(24,119,242,0.16);
+                transform: translateY(-4px) scale(1.03);
+            }
+
+            .login-btn img {
+                width: 72px;
+                height: 72px;
+                object-fit: contain;
+                margin-bottom: 18px;
+                filter: drop-shadow(0 2px 8px #eaf4fb);
+            }
+
+            .login-btn .role-title {
+                font-size: 1.45rem;
+                color: #222;
+                font-weight: 600;
+                margin-bottom: 6px;
+                letter-spacing: 0.2px;
+            }
+
+            .login-btn .role-desc {
+                color: #6a7a8c;
+                font-size: 1.05rem;
+                font-weight: 400;
+                text-align: center;
+                max-width: 220px;
+            }
+
+        @@media (max-width: 700px) {
+            .center-card
+
+        {
+            padding: 32px 8vw 32px 8vw;
+        }
+
+        .login-options {
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="center-card">
+        <div class="main-title">Loan Application System</div>
+        <div class="subtitle">Please select your role to continue</div>
+        <div class="login-options">
+            <a class="login-btn" href="/ClientAuth/LoginC">
+                <img src="~/lib/client.png" alt="Client Login" />
+                <span class="role-title">Client</span>
+                <span class="role-desc">Access as a client to manage your loan applications</span>
+            </a>
+            <a class="login-btn" href="/AdminAuth/LoginA">
+                <img src="~/lib/admin.png" alt="Admin Login" />
+                <span class="role-title">Admin</span>
+                <span class="role-desc">Access as an administrator to manage the system</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

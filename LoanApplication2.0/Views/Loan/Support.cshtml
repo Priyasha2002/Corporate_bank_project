@@ -1,0 +1,123 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Support - Admin Contacts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=wrap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="~/css/Mainpage.css" rel="stylesheet" />
+    <style>
+        body {
+            background: linear-gradient(135deg, rgb(147, 197, 253) 0%, rgb(59, 130, 246) 25%, rgb(30, 64, 175) 75%, rgb(15, 23, 42) 100%);
+            font-family: 'Inter', Arial, sans-serif;
+        }
+
+        .support-card {
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 2px 16px rgba(24,119,242,0.08);
+            padding: 32px 24px;
+            margin-bottom: 24px;
+            transition: box-shadow 0.2s, transform 0.18s;
+        }
+
+            .support-card:hover {
+                box-shadow: 0 8px 32px rgba(24,119,242,0.16);
+                transform: translateY(-4px) scale(1.03);
+            }
+
+        .admin-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #2563eb;
+        }
+
+        .admin-email, .admin-phone {
+            font-size: 1.08rem;
+            color: #374151;
+        }
+
+            .admin-email i, .admin-phone i {
+                color: #1877f2;
+                margin-right: 8px;
+            }
+
+        .main-title {
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.5px;
+        }
+
+        .back-btn-nav {
+            margin-left: auto;
+        }
+        @@media (max-width: 700px) {
+            .support-card
+
+        {
+            padding: 18px 6vw;
+        }
+
+        .back-btn-nav {
+            margin: 10px 0 0 0;
+            width: 100%;
+        }
+
+        }</style>
+</head>
+<body>
+    <nav class="vista-nav">
+        <div class="container d-flex align-items-center">
+            <a href="/Loan/DashboardWithApply" class="brand">CBLOS</a>
+            <ul class="nav-links mb-0">
+                <li><a href="/Loan/DashboardWithApply" class="nav-link">Dashboard</a></li>
+                <li><a href="#calculator" class="nav-link">Calculator</a></li>
+                <li><a href="/Loan/Apply" class="nav-link">Apply</a></li>
+                <li><a href="/Client/MyLoans" class="nav-link">My Loans</a></li>
+                <li><a href="/ClientAuth/LoginC" class="nav-link">Logout</a></li>
+            </ul>
+            <a href="/Loan/DashboardWithApply" class="btn btn-outline-primary ms-auto back-btn-nav">
+                <i class="fa fa-arrow-left"></i> Back to Dashboard
+            </a>
+        </div>
+    </nav>
+    <div class="main-content">
+        <div class="container mt-5">
+            <div class="main-title">Support - Admin Contacts</div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="support-card mb-4">
+                        <div class="admin-name"><i class="fa fa-user"></i> Priyasha Ghosh</div>
+                        <div class="admin-email"><i class="fa fa-envelope"></i> priyasha.ghosh3@cognizant.com</div>
+                        <div class="admin-phone"><i class="fa fa-phone"></i> +91 9433627585</div>
+                    </div>
+                    <div class="support-card mb-4">
+                        <div class="admin-name"><i class="fa fa-user"></i> Lavish Kumar</div>
+                        <div class="admin-email"><i class="fa fa-envelope"></i> lavish.kumar@cognizant.com</div>
+                        <div class="admin-phone"><i class="fa fa-phone"></i> +91 7900742570</div>
+                    </div>
+                    <div class="support-card mb-4">
+                        <div class="admin-name"><i class="fa fa-user"></i> Debdut Brahmachari</div>
+                        <div class="admin-email"><i class="fa fa-envelope"></i> debdut.brahmachari@cognizant.com</div>
+                        <div class="admin-phone"><i class="fa fa-phone"></i> +91 8609551970</div>
+                    </div>
+                    <div class="support-card mb-4">
+                        <div class="admin-name"><i class="fa fa-user"></i> Ritam Sengupta</div>
+                        <div class="admin-email"><i class="fa fa-envelope"></i> ritam.sengupta@cognizant.com</div>
+                        <div class="admin-phone"><i class="fa fa-phone"></i> +91 8927804398</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

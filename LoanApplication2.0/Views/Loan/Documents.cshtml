@@ -1,0 +1,38 @@
+﻿@model IEnumerable<LoanApplicationSystem2._0.Models.LoanDocument>
+@{
+    ViewBag.Title = $"Documents for Application #{ViewBag.ApplicationId}";
+}
+
+<div class="container mt-4">
+    <h3>Documents for Application ID: @ViewBag.ApplicationId</h3>
+    <table class="table table-bordered mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Document ID</th>
+                <th>Document Type</th>
+                <th>File Path</th>
+                <th>Upload Date</th>
+                <th>Is Valid</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var doc in Model)
+            {
+                <tr>
+                    <td>@doc.DocumentId</td>
+                    <td>@doc.DocumentType</td>
+                    <td>@doc.FilePath</td>
+                    <td>@doc.UploadDate.ToString("yyyy‑MM‑dd HH:mm")</td>
+                    <td>@doc.IsValid</td>
+                    <td>
+                        <a href="@doc.FilePath" target="_blank" class="btn btn-sm btn-primary">
+                            Open
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="@Url.Action("AdminList", "Loan")" class="btn btn-secondary mt-2">← Back to Applications</a>
+</div>

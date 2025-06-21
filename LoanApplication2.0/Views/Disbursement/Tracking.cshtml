@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Disbursement>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.8) 100%);">
+    <div class="container-fluid">
+        <span class="navbar-brand text-dark">Disbursement Tracker</span>
+        <div class="d-flex">
+            <a asp-controller="Loan" asp-action="AdminList" class="btn btn-outline-light me-2" style="background:linear-gradient(135deg, rgb(147, 197, 253) 0%, rgb(59, 130, 246) 25%, rgb(30, 64, 175) 75%, rgb(15, 23, 42) 100%);">
+                
+                Back to Home
+            </a>
+            <a asp-controller="Disbursement" asp-action="TrackDisbursement" class="btn btn-light text-primary">
+                Add Disbursement
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle">
+            <thead class="table-primary">
+                <tr>
+                    <th>Disbursement ID</th>
+                    <th>Application ID</th>
+                    <th>Disbursed Amount</th>
+                    <th>Disbursement Date</th>
+                    
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.DisbursementId</td>
+                        <td>@item.LoanApplicationId</td>
+                        <td>@item.DisbursedAmount.ToString("C")</td>
+                        <td>@item.DisbursementDate.ToString("dd-MM-yyyy")</td>
+                        <td>@item.RepaymentSchedule</td>
+                        <td>
+                            <form asp-action="Delete" asp-controller="Disbursement" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@item.DisbursementId" />
+                                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this disbursement?');">
+                                    Delete
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<style>
+    body {
+        background: linear-gradient(135deg, rgb(147, 197, 253) 0%, rgb(59, 130, 246) 25%, rgb(30, 64, 175) 75%, rgb(15, 23, 42) 100%);
+    }
+</style>

@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LoanApplication2.0.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LoanApplication2.0.hqpz1ee3cg.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\css\\Mainpage.css",
+      "PackagePath": "staticwebassets\\css\\Mainpage.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\188dfadc-799a-44de-ad6b-96ec868d7493_Cloud_Computing_Notes.pdf",
+      "PackagePath": "staticwebassets\\documents\\188dfadc-799a-44de-ad6b-96ec868d7493_Cloud_Computing_Notes.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\2c68c03f-5151-477d-b3fc-723a749474e8_Behavioral Interview questions and answers.pdf",
+      "PackagePath": "staticwebassets\\documents\\2c68c03f-5151-477d-b3fc-723a749474e8_Behavioral Interview questions and answers.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\44e516f7-1d1b-4152-82d5-37380442330c_Behavioral Interview questions and answers.pdf",
+      "PackagePath": "staticwebassets\\documents\\44e516f7-1d1b-4152-82d5-37380442330c_Behavioral Interview questions and answers.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\52a9c352-40ba-496d-ae13-8c8734020985_Claims Management and Reporting & Analytics.pdf",
+      "PackagePath": "staticwebassets\\documents\\52a9c352-40ba-496d-ae13-8c8734020985_Claims Management and Reporting & Analytics.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\73bc61bf-3515-47e7-b85a-80c50cd09159_Customer & AgentBroker Portals.pdf",
+      "PackagePath": "staticwebassets\\documents\\73bc61bf-3515-47e7-b85a-80c50cd09159_Customer & AgentBroker Portals.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\91003401-2e05-48c9-82d3-ced014133efa_Cloud_Computing_Notes.pdf",
+      "PackagePath": "staticwebassets\\documents\\91003401-2e05-48c9-82d3-ced014133efa_Cloud_Computing_Notes.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\b92249f8-3bed-43be-899e-62f1c5719473_Debdut_Resume_New_02_25.pdf",
+      "PackagePath": "staticwebassets\\documents\\b92249f8-3bed-43be-899e-62f1c5719473_Debdut_Resume_New_02_25.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\bcec72e0-4f4e-411b-8468-262282b95a69_Claims Management and Reporting & Analytics.pdf",
+      "PackagePath": "staticwebassets\\documents\\bcec72e0-4f4e-411b-8468-262282b95a69_Claims Management and Reporting & Analytics.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\c4534f28-413d-42ef-b7d1-8ebe38fb63bc_Object Oriented Programming.pdf",
+      "PackagePath": "staticwebassets\\documents\\c4534f28-413d-42ef-b7d1-8ebe38fb63bc_Object Oriented Programming.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\ec0c8ef3-7ba8-4d50-bff3-1ccedbec499b_Cloud_Computing_Notes.pdf",
+      "PackagePath": "staticwebassets\\documents\\ec0c8ef3-7ba8-4d50-bff3-1ccedbec499b_Cloud_Computing_Notes.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\f1dbe0ef-9153-49aa-872c-a9ff236fb8b2_Customer & AgentBroker Portals.pdf",
+      "PackagePath": "staticwebassets\\documents\\f1dbe0ef-9153-49aa-872c-a9ff236fb8b2_Customer & AgentBroker Portals.pdf"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\js\\Mainpage.js",
+      "PackagePath": "staticwebassets\\js\\Mainpage.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\admin.png",
+      "PackagePath": "staticwebassets\\lib\\admin.png"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\client.png",
+      "PackagePath": "staticwebassets\\lib\\client.png"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LoanApplication2.0.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LoanApplication2.0.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.LoanApplication2.0.props",
+      "PackagePath": "build\\LoanApplication2.0.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.LoanApplication2.0.props",
+      "PackagePath": "buildMultiTargeting\\LoanApplication2.0.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.LoanApplication2.0.props",
+      "PackagePath": "buildTransitive\\LoanApplication2.0.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

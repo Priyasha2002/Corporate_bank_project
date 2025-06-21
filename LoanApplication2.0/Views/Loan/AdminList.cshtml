@@ -1,0 +1,134 @@
+﻿@model IEnumerable<LoanApplicationSystem2._0.Models.LoanTrackingViewModel>
+
+<!-- Full-width Admin Navbar -->
+<nav class="navbar navbar-expand-lg" id="mainnav"
+     style=" position:fixed; top:0; left:0; right:0; width:100%; z-index:1050;background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.8) 100%);">
+    <div class="container-fluid px-4">
+        <a class="navbar-brand text-dark fw-bold" href="/AdminAuth/Welcome">Admin Panel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#adminNavbar" aria-controls="adminNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="adminNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active text-dark fw-bold" href="/Loan/AdminList">All Applications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" href="/Loan/CreditScore">Check Credit Score</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" href="/Disbursement/Tracking">Track Disbursement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" href="/AdminAuth/Logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<style>
+    body {
+        background: linear-gradient(135deg, rgb(147, 197, 253) 0%, rgb(59, 130, 246) 25%, rgb(30, 64, 175) 75%, rgb(15, 23, 42) 100%);
+        margin: 0;
+        padding: 0;
+    }
+    /* Optional: prevent horizontal scroll due to fixed navbar */
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    
+    
+</style>
+
+<!-- Spacer to account for fixed navbar (adjust height if navbar is taller) -->
+<div style="height:70px;"></div>
+
+<div class="container">
+    <h2 class="mb-4 text-light">All Loan Applications</h2>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input type="text" id="searchInput" class="form-control" placeholder="🔎 Search by Company Name" />
+        </div>
+        <div class="col-md-6">
+            <select id="statusFilter" class="form-select">
+                <option value="">❗ Filter by Status</option>
+                <option value="Pending">⏳ Pending</option>
+                <option value="Approved">✅ Approved</option>
+                <option value="Rejected">❌ Rejected</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped align-middle" id="loanTable">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Company</th>
+                    <th>Loan Type</th>
+                    <th>Amount (INR)</th>
+                    <th>Submission Date</th>
+                    <th>Status</th>
+                    <th>Approvals</th>
+                    <th>Documents</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    var statusClass = item.LatestApprovalStatus == "Approved" ? "bg-success text-white"
+                    : item.LatestApprovalStatus == "Rejected" ? "bg-danger text-white"
+                    : "bg-warning text-dark";
+                    <tr>
+                        <td>@item.ApplicationId</td>
+                        <td>@item.CompanyName</td>
+                        <td>@item.LoanType</td>
+                        <td>@item.LoanAmount.ToString("C0")</td>
+                        <td>@item.SubmissionDate.ToShortDateString()</td>
+                        <td><span class="badge @statusClass">@item.LatestApprovalStatus</span></td>
+                        <td>
+                            <a href="@Url.Action("Details", "Approval", new { applicationId = item.ApplicationId })"
+                               class="btn btn-sm"
+                               style="background-color:plum; color: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s ease; border-radius: 4px;"
+                               onmouseover="this.style.backgroundColor='#e75480'; this.style.boxShadow='0 6px 10px rgba(0,0,0,0.15)'"
+                               onmouseout="this.style.backgroundColor='plum'; this.style.boxShadow='0 4px 6px rgba(0,0,0,0.1)'">
+                                👁️ View Approvals
+                            </a>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Documents", "Loan", new { applicationId = item.ApplicationId })"
+                               class="btn btn-info btn-sm">
+                                📄 View Documents
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+    <script>
+        function filterTable() {
+            var searchValue = document.getElementById("searchInput").value.toLowerCase();
+            var statusValue = document.getElementById("statusFilter").value.toLowerCase();
+            var rows = document.querySelectorAll("#loanTable tbody tr");
+
+            rows.forEach(row => {
+                var company = row.cells[1].textContent.toLowerCase();
+                var status = row.cells[5].textContent.toLowerCase();
+
+                var matchesSearch = company.includes(searchValue);
+                var matchesStatus = !statusValue || status.includes(statusValue);
+
+                row.style.display = (matchesSearch && matchesStatus) ? "" : "none";
+            });
+        }
+
+        document.getElementById("searchInput").addEventListener("input", filterTable);
+        document.getElementById("statusFilter").addEventListener("change", filterTable);
+    </script>
+</div>

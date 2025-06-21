@@ -1,0 +1,182 @@
+﻿@model LoanApplicationSystem2._0.Models.LoanApplication
+
+@{
+    Layout = null;
+    ViewBag.Title = "Corporate Loan Application";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="~/css/Mainpage.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #eaf4fb;
+            font-family: 'Inter', Arial, sans-serif;
+        }
+
+        .main-title {
+            color: #2563eb;
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.5px;
+        }
+        @@media (max-width: 700px) {
+            .main-title
+
+        {
+            font-size: 1.3rem;
+        }
+
+        }</style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="vista-nav">
+        <div class="container d-flex align-items-center">
+            <a href="/Loan/DashboardWithApply" class="brand">CBLOS</a>
+            <ul class="nav-links mb-0">
+                <li><a href="/Loan/DashboardWithApply" class="nav-link">Dashboard</a></li>
+                <li><a href="#calculator" class="nav-link">Calculator</a></li>
+                <li><a href="/Loan/Apply" class="nav-link active">Apply</a></li>
+                <li><a href="/Client/MyLoans" class="nav-link">My Loans</a></li>
+                <li><a href="/Loan/Support" class="nav-link">Support</a></li>
+                <li><a href="/ClientAuth/LoginC" class="nav-link">Logout</a></li>
+            </ul>
+            <a href="/Loan/DashboardWithApply" class="btn btn-outline-primary ms-auto back-btn-nav">
+                <i class="fa fa-arrow-left"></i> Back to Dashboard
+            </a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-primary text-white text-center">
+                            <h3 class="mb-0">Corporate Loan Application</h3>
+                        </div>
+                        <div class="card-body">
+                            @* Show all model validation errors if any *@
+                            @if (!ViewData.ModelState.IsValid)
+                            {
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach (var entry in ViewData.ModelState)
+                                        {
+                                            foreach (var error in entry.Value.Errors)
+                                            {
+                                                <li>
+                                                    @if (!string.IsNullOrEmpty(entry.Key))
+                                                    {
+                                                        <strong>@entry.Key:</strong>
+                                                    }
+                                                    @error.ErrorMessage
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+                            }
+
+                            @using (Html.BeginForm("Apply", "Loan", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.CompanyName, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.CompanyName, new { @class = "form-control" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.BusinessType, new { @class = "form-label" })
+                                    @Html.DropDownListFor(m => m.BusinessType, new SelectList(new[] { "Pvt Ltd", "LLP", "Partnership", "Proprietorship" }), "Select", new { @class = "form-control" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.RegistrationNo, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.RegistrationNo, new { @class = "form-control" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.GSTIN, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.GSTIN, new { @class = "form-control" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.Industry, new { @class = "form-label" })
+                                    @Html.DropDownListFor(m => m.Industry, new SelectList(new[] { "Manufacturing", "IT", "Logistics", "Retail", "Finance", "Healthcare" }), "Select", new { @class = "form-control" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.YearsInOperation, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.YearsInOperation, new { @class = "form-control", type = "number", min = "0" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.LoanAmount, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.LoanAmount, new { @class = "form-control", placeholder = "Amount in INR" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.LoanPurpose, new { @class = "form-label" })
+                                    @Html.TextAreaFor(m => m.LoanPurpose, new { @class = "form-control", rows = 3 })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.Turnover, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.Turnover, new { @class = "form-control", type = "number" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.NetProfit, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.NetProfit, new { @class = "form-control", type = "number" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.ExistingDebt, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.ExistingDebt, new { @class = "form-control", placeholder = "Total liabilities" })
+                                </div>
+
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.Collateral, new { @class = "form-label" })
+                                    @Html.TextAreaFor(m => m.Collateral, new { @class = "form-control", rows = 2 })
+                                </div>
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.StartDateOfRepayment, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.StartDateOfRepayment, new { @class = "form-control", type = "date" })
+                                </div>
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.RepaymentDuration, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.RepaymentDuration, new { @class = "form-control", type = "number", min = "1", max = "360", placeholder = "Duration in months" })
+                                </div>
+                                <div class="mb-3">
+                                    @Html.LabelFor(m => m.CompanyDocument, "Upload Company Document", new { @class = "form-label" })
+                                    <input type="file" name="CompanyDocument" class="form-control" accept=".pdf,.doc,.docx,.jpg,.png" />
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/Mainpage.js"></script>
+</body>
+</html>

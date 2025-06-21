@@ -1,0 +1,164 @@
+﻿@* Views/Loan/CreditScore.cshtml *@
+@{
+    ViewBag.Title = "Corporate Credit Scores";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Corporate Credit Scores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=wrap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link href="~/css/Mainpage.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f6f7fa;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+
+        .main-title {
+            color: #1877f2;
+            font-size: 2rem;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .subtitle {
+            color: #555;
+            font-size: 1.1rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .risk-badge {
+            display: inline-block;
+            padding: 0.4em 1em;
+            border-radius: 1em;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .risk-low {
+            background: #d4f8e8;
+            color: #1e824c;
+        }
+
+        .risk-medium {
+            background: #fff6d6;
+            color: #b9770e;
+        }
+
+        .risk-high {
+            background: #ffe5e5;
+            color: #c0392b;
+        }
+
+        th {
+            background-color: #eaf4fb !important;
+            color: #1877f2 !important;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  bg-primary mb-4" style="background:linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.8) 100%);">
+        <div class="container-fluid">
+            <span class="navbar-brand">Corporate Credit Scores</span>
+            <a href="@Url.Action("AdminList", "Loan")" class="btn btn-outline-light" style="background:linear-gradient(135deg, rgb(147, 197, 253) 0%, rgb(59, 130, 246) 25%, rgb(30, 64, 175) 75%, rgb(15, 23, 42) 100%);">
+                ← Back to Home
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="main-title text-light" >Corporate Credit Scores</div>
+        <div class="subtitle text-light">Live credit scores for all corporate loan applicants</div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle" id="creditScoreTable">
+                <thead>
+                    <tr>
+                        <th>Application No</th>
+                        <th>Company Name</th>
+                        <th>Application Date</th>
+                        <th>Credit Score</th>
+                        <th>Risk</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function getRiskBadge(score) {
+            if (score > 80) {
+                return '<span class="risk-badge risk-low">Low</span>';
+            } else if (score >= 40) {
+                return '<span class="risk-badge risk-medium">Medium</span>';
+            } else {
+                return '<span class="risk-badge risk-high">High</span>';
+            }
+        }
+
+        function formatDate(dateString) {
+            var d = new Date(dateString);
+            if (isNaN(d.getTime())) return dateString;
+            return d.getFullYear() + '-' +
+                String(d.getMonth() + 1).padStart(2, '0') + '-' +
+                String(d.getDate()).padStart(2, '0');
+        }
+
+        function loadCreditScores() {
+            fetch('/Loan/GetCreditScores')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const tbody = document.querySelector('#creditScoreTable tbody');
+                    tbody.innerHTML = '';
+                    data.forEach(row => {
+                        const tr = document.createElement('tr');
+                        tr.innerHTML = `
+                            <td>${row.id}</td>
+                            <td>${row.companyName}</td>
+                            <td>${formatDate(row.submissionDate)}</td>
+                            <td><b>${row.creditScore}</b></td>
+                            <td>${getRiskBadge(row.creditScore)}</td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching credit scores:', error);
+                });
+        }
+
+        loadCreditScores();
+        setInterval(loadCreditScores, 10000);
+    </script>
+</body>
+</html>

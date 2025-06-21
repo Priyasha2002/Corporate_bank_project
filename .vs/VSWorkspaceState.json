@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LoanApplication2.0",
+    "\\LoanApplication2.0\\Controllers",
+    "\\LoanApplication2.0\\Views",
+    "\\LoanApplication2.0\\Views\\AdminAuth",
+    "\\LoanApplication2.0\\Views\\Approval",
+    "\\LoanApplication2.0\\Views\\Disbursement",
+    "\\LoanApplication2.0\\Views\\Home",
+    "\\LoanApplication2.0\\Views\\Loan",
+    "\\LoanApplication2.0\\wwwroot",
+    "\\LoanApplication2.0\\wwwroot\\js"
+  ],
+  "SelectedNode": "\\LoanApplication2.0\\Controllers\\DisbursementController.cs",
+  "PreviewInSolutionExplorer": false
+}

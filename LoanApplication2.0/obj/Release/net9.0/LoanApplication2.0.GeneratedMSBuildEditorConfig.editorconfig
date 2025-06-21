@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LoanApplication2._0
+build_property.RootNamespace = LoanApplication2._0
+build_property.ProjectDir = C:\Users\2406689\Desktop\Project\Loan2\LoanApplication2.0\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\2406689\Desktop\Project\Loan2\LoanApplication2.0
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/AdminAuth/LoginA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BdXRoXExvZ2luQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/AdminAuth/welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BdXRoXHdlbGNvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Approval/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/ClientAuth/LoginC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50QXV0aFxMb2dpbkMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/ClientAuth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50QXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/ClientAuth/RegisterSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50QXV0aFxSZWdpc3RlclN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Client/MyLoans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XE15TG9hbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Disbursement/TrackDisbursement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzYnVyc2VtZW50XFRyYWNrRGlzYnVyc2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Disbursement/Tracking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzYnVyc2VtZW50XFRyYWNraW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Loan/AdminList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxBZG1pbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Loan/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxBcHBseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Loan/CreditScore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxDcmVkaXRTY29yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Loan/DashboardWithApply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxEYXNoYm9hcmRXaXRoQXBwbHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Loan/Documents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxEb2N1bWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Loan/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2406689/Desktop/Project/Loan2/LoanApplication2.0/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sgfuubowri

@@ -1,0 +1,149 @@
+﻿@model LoanApplicationSystem2._0.Models.ClientRegisterViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Client Registration - Loan Application System</title>
+    <style>
+        body {
+            background-color: #eaf4fb;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .register-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .register-box {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 40px 32px 32px 32px;
+            min-width: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+            .register-box h2 {
+                margin-bottom: 24px;
+                color: #333;
+                text-align: center;
+            }
+
+        .form-group {
+            margin-bottom: 18px;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .form-group label {
+                margin-bottom: 6px;
+                color: #333;
+                font-weight: 500;
+            }
+
+            .form-group input[type="text"],
+            .form-group input[type="email"],
+            .form-group input[type="password"] {
+                padding: 10px;
+                border: 1px solid #bcd0e5;
+                border-radius: 6px;
+                font-size: 1em;
+            }
+
+        .register-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .register-btn {
+            background-color: #3a8dde;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 0;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+            .register-btn:hover {
+                background-color: #256bb2;
+            }
+
+        .login-link {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+            .login-link a {
+                color: #3a8dde;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+                .login-link a:hover {
+                    text-decoration: underline;
+                }
+
+        .validation-summary-errors {
+            color: #b00020;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-box">
+            <h2>Create Account</h2>
+            @using (Html.BeginForm("Register", "ClientAuth", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "validation-summary-errors" })
+
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    @Html.TextBoxFor(m => m.Name, new { @id = "Name", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Name)
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    @Html.TextBoxFor(m => m.Email, new { @id = "Email", type = "email", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+                <div class="form-group">
+                    <label for="Password">Set Password</label>
+                    @Html.PasswordFor(m => m.Password, new { @id = "Password", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+                <div class="form-group">
+                    <label for="ConfirmPassword">Retype Password</label>
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @id = "ConfirmPassword", required = "required" })
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                </div>
+                <div class="register-actions">
+                    <button type="submit" class="register-btn">Register</button>
+                </div>
+            }
+            <div class="login-link">
+                <a href="/ClientAuth/LoginC">Already have an account? Log in</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
