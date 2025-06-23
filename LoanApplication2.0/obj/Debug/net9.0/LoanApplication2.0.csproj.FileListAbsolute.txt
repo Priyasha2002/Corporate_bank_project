@@ -1305,6 +1305,7 @@ C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\obj\Debug\net9.0\LoanApp
 C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\obj\Debug\net9.0\LoanApplication2.0.MvcApplicationPartsAssemblyInfo.cache
 C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\obj\Debug\net9.0\LoanApplication2.0.RazorAssemblyInfo.cache
 C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\obj\Debug\net9.0\LoanApplication2.0.RazorAssemblyInfo.cs
+C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\obj\Debug\net9.0\LoanApplication2.0.sourcelink.json
 C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\obj\Debug\net9.0\scopedcss\bundle\LoanApplication2.0.styles.css
 C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\obj\Debug\net9.0\scopedcss\projectbundle\LoanApplication2.0.bundle.scp.css

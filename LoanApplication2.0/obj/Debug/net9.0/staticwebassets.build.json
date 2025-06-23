@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4H8VrQydXtakhPZlWuXxypm5CxzOmvoVOygpBXtqQWY=",
+  "Hash": "5YPEdV2WTPPGykblaYyksz8Tw5TIINeKbufIK4TWvGk=",
   "Source": "LoanApplication2.0",
   "BasePath": "_content/LoanApplication2.0",
   "Mode": "Default",
@@ -1487,6 +1487,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf",
+      "SourceId": "LoanApplication2.0",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\",
+      "BasePath": "_content/LoanApplication2.0",
+      "RelativePath": "documents/002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wn6vw0a7y0",
+      "Integrity": "fLOW8OkeOV1UJAof+4QSiOfCNnip/nkjAhjRoaQRweI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf"
+    },
+    {
       "Identity": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\188dfadc-799a-44de-ad6b-96ec868d7493_Cloud_Computing_Notes.pdf",
       "SourceId": "LoanApplication2.0",
       "SourceType": "Discovered",
@@ -1653,6 +1674,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\documents\\bcec72e0-4f4e-411b-8468-262282b95a69_Claims Management and Reporting & Analytics.pdf"
+    },
+    {
+      "Identity": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf",
+      "SourceId": "LoanApplication2.0",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\",
+      "BasePath": "_content/LoanApplication2.0",
+      "RelativePath": "documents/befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b91j09dav0",
+      "Integrity": "H6HOrbqP2jVwp+4hd7s2sstyXHef9e5cjqGsjwhKEg4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf"
     },
     {
       "Identity": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\c4534f28-413d-42ef-b7d1-8ebe38fb63bc_Object Oriented Programming.pdf",
@@ -3681,6 +3723,88 @@
       ]
     },
     {
+      "Route": "documents/002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf",
+      "AssetFile": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fLOW8OkeOV1UJAof+4QSiOfCNnip/nkjAhjRoaQRweI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 16:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fLOW8OkeOV1UJAof+4QSiOfCNnip/nkjAhjRoaQRweI="
+        }
+      ]
+    },
+    {
+      "Route": "documents/002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.wn6vw0a7y0.pdf",
+      "AssetFile": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fLOW8OkeOV1UJAof+4QSiOfCNnip/nkjAhjRoaQRweI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 16:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wn6vw0a7y0"
+        },
+        {
+          "Name": "label",
+          "Value": "documents/002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fLOW8OkeOV1UJAof+4QSiOfCNnip/nkjAhjRoaQRweI="
+        }
+      ]
+    },
+    {
       "Route": "documents/188dfadc-799a-44de-ad6b-96ec868d7493_Cloud_Computing_Notes.pdf",
       "AssetFile": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\188dfadc-799a-44de-ad6b-96ec868d7493_Cloud_Computing_Notes.pdf",
       "Selectors": [],
@@ -4333,6 +4457,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-uEPu4SSQ1V8Sck76szXyWKtr0GDguWiMHLixSuWEQx0="
+        }
+      ]
+    },
+    {
+      "Route": "documents/befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.b91j09dav0.pdf",
+      "AssetFile": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H6HOrbqP2jVwp+4hd7s2sstyXHef9e5cjqGsjwhKEg4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 11:01:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b91j09dav0"
+        },
+        {
+          "Name": "label",
+          "Value": "documents/befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H6HOrbqP2jVwp+4hd7s2sstyXHef9e5cjqGsjwhKEg4="
+        }
+      ]
+    },
+    {
+      "Route": "documents/befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf",
+      "AssetFile": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\wwwroot\\documents\\befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H6HOrbqP2jVwp+4hd7s2sstyXHef9e5cjqGsjwhKEg4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 11:01:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H6HOrbqP2jVwp+4hd7s2sstyXHef9e5cjqGsjwhKEg4="
         }
       ]
     },
@@ -23329,7 +23535,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23382,7 +23588,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23419,7 +23625,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23466,7 +23672,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23527,7 +23733,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23572,7 +23778,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23627,7 +23833,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23688,7 +23894,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23733,7 +23939,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23788,7 +23994,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23841,7 +24047,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23878,7 +24084,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 09:09:41 GMT"
+          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
         },
         {
           "Name": "Cache-Control",

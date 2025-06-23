@@ -64,6 +64,7 @@ C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\wwwroot\lib\jquery-valid
 C:\Priyasha\Loan2-ritam_clean-upload\LoanApplication2.0\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 wwwroot\css\Mainpage.css
 wwwroot\css\site.css
+wwwroot\documents\002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf
 wwwroot\documents\188dfadc-799a-44de-ad6b-96ec868d7493_Cloud_Computing_Notes.pdf
 wwwroot\documents\2c68c03f-5151-477d-b3fc-723a749474e8_Behavioral Interview questions and answers.pdf
 wwwroot\documents\44e516f7-1d1b-4152-82d5-37380442330c_Behavioral Interview questions and answers.pdf
@@ -72,6 +73,7 @@ wwwroot\documents\73bc61bf-3515-47e7-b85a-80c50cd09159_Customer & AgentBroker Po
 wwwroot\documents\91003401-2e05-48c9-82d3-ced014133efa_Cloud_Computing_Notes.pdf
 wwwroot\documents\b92249f8-3bed-43be-899e-62f1c5719473_Debdut_Resume_New_02_25.pdf
 wwwroot\documents\bcec72e0-4f4e-411b-8468-262282b95a69_Claims Management and Reporting & Analytics.pdf
+wwwroot\documents\befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf
 wwwroot\documents\c4534f28-413d-42ef-b7d1-8ebe38fb63bc_Object Oriented Programming.pdf
 wwwroot\documents\ec0c8ef3-7ba8-4d50-bff3-1ccedbec499b_Cloud_Computing_Notes.pdf
 wwwroot\documents\f1dbe0ef-9153-49aa-872c-a9ff236fb8b2_Customer & AgentBroker Portals.pdf

@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<Disbursement>
 
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.8) 100%);">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg" id="mainnav"
+     style="position:fixed; top:0; left:0; right:0; width:100%; z-index:1050; background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.8) 100%);">
+    <div class="container-fluid PX-4">
         <span class="navbar-brand text-dark">Disbursement Tracker</span>
         <div class="d-flex">
             <a asp-controller="Loan" asp-action="AdminList" class="btn btn-outline-light me-2" style="background:linear-gradient(135deg, rgb(147, 197, 253) 0%, rgb(59, 130, 246) 25%, rgb(30, 64, 175) 75%, rgb(15, 23, 42) 100%);">
-                
+
                 Back to Home
             </a>
             <a asp-controller="Disbursement" asp-action="TrackDisbursement" class="btn btn-light text-primary">
@@ -17,7 +17,6 @@
     </div>
 </nav>
 
-<!-- Main Content -->
 <div class="container">
     <div class="table-responsive">
         <table class="table table-hover align-middle">
@@ -27,7 +26,7 @@
                     <th>Application ID</th>
                     <th>Disbursed Amount</th>
                     <th>Disbursement Date</th>
-                    
+                    <th>Repayment Schedule</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -57,5 +56,66 @@
 <style>
     body {
         background: linear-gradient(135deg, rgb(147, 197, 253) 0%, rgb(59, 130, 246) 25%, rgb(30, 64, 175) 75%, rgb(15, 23, 42) 100%);
+        min-height: 100vh;
+        /* Fix for table going under navbar: Add padding to body */
+        padding-top: 75px; /* Adjust this value if your navbar height is different */
     }
+
+    .container {
+        /* Add some top margin to ensure space below the navbar, after body padding */
+        margin-top: 20px;
+    }
+
+    .table {
+        /* Add a white background to the table for better readability */
+        background-color: white;
+        border-radius: 8px; /* Slightly rounded corners for the table */
+        overflow: hidden; /* Ensures rounded corners are visible */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for visual depth */
+    }
+
+    .table-primary thead th {
+        white-space: nowrap; /* Prevent header text from wrapping */
+        padding: 12px 15px; /* More generous padding for headers */
+    }
+
+    .table tbody tr td {
+        vertical-align: middle; /* Vertically align content in cells */
+        padding: 10px 15px; /* Consistent padding for data cells */
+        white-space: nowrap; /* Prevent cell content from wrapping if possible */
+    }
+
+    /* Fix for Delete button alignment: Target the Actions column */
+    /* This will now apply to the LAST column which is correctly the Actions column */
+    .table th:last-child,
+    .table td:last-child {
+        width: 100px; /* Give the Actions column a fixed width */
+        text-align: center; /* Center the content (Delete button) */
+    }
+
+    /* Ensure the inline form doesn't cause layout issues within the td */
+    .table td form.d-inline {
+        display: block; /* Makes the form take up its own line if needed, aiding centering */
+        margin: auto; /* Centers the block-level form horizontally */
+    }
+
+    /* Optional: Style for the navbar brand and buttons for consistency */
+    .navbar-brand {
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        color: #343a40 !important; /* Ensure brand text is dark */
+    }
+
+    .btn-outline-light {
+        border-color: transparent !important; /* Ensure no white border on the gradient button */
+    }
+
+    .btn-light.text-primary {
+        border: 1px solid #007bff; /* Add a subtle border to the light button */
+        color: #007bff !important;
+    }
+
+        .btn-light.text-primary:hover {
+            background-color: #e2e6ea;
+        }
 </style>

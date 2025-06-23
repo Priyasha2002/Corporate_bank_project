@@ -11,5 +11,5 @@ public class Disbursement
 
     public decimal DisbursedAmount { get; set; }
     public DateTime DisbursementDate { get; set; }
-    public string? RepaymentSchedule { get; set; }
+    public int RepaymentSchedule { get; set; }
 }

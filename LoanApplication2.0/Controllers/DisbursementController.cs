@@ -4,6 +4,7 @@ using LoanApplication2._0.Models;
 using LoanApplication2._0;
 using LoanApplicationSystem2._0.Models;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace LoanApplication2._0.Controllers
 {
@@ -64,11 +65,12 @@ namespace LoanApplication2._0.Controllers
                 var loanApplication = _context.LoanApplications
                     .FirstOrDefault(a => a.Id == disbursement.LoanApplicationId);
 
+               
                 if (loanApplication != null)
                 {
                     // Set the DisbursementAmount from the LoanApplication's LoanAmount
                     disbursement.DisbursedAmount = loanApplication.LoanAmount;
-
+                    disbursement.RepaymentSchedule = loanApplication.RepaymentDuration;
                     _context.Disbursements.Add(disbursement);
                     _context.SaveChanges();
 

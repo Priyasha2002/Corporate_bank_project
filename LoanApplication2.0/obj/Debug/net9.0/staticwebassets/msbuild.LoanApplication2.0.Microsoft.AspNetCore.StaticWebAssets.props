@@ -36,6 +36,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LoanApplication2.0</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LoanApplication2.0</BasePath>
+      <RelativePath>documents/002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wn6vw0a7y0</Fingerprint>
+      <Integrity>fLOW8OkeOV1UJAof+4QSiOfCNnip/nkjAhjRoaQRweI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\002d218c-954c-45f9-90e2-480b2808becf_Cloud_Computing_Notes.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\188dfadc-799a-44de-ad6b-96ec868d7493_Cloud_Computing_Notes.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>LoanApplication2.0</SourceId>
@@ -179,6 +197,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\bcec72e0-4f4e-411b-8468-262282b95a69_Claims Management and Reporting &amp; Analytics.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LoanApplication2.0</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LoanApplication2.0</BasePath>
+      <RelativePath>documents/befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b91j09dav0</Fingerprint>
+      <Integrity>H6HOrbqP2jVwp+4hd7s2sstyXHef9e5cjqGsjwhKEg4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\befe311d-2fa8-4302-96e1-ae8edb75886c_Cloud_Computing_Definitions.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\c4534f28-413d-42ef-b7d1-8ebe38fb63bc_Object Oriented Programming.pdf'))">
       <SourceType>Package</SourceType>
