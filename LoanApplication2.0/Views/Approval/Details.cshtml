@@ -3,6 +3,7 @@
 @{
     ViewBag.Title = "Loan Application Details";
     Layout = null;
+    var approvals = ViewBag.Approvals as List<LoanApplicationSystem2._0.Models.Approval>;
 }
 
 <!DOCTYPE html>
@@ -107,6 +108,29 @@
         .alert {
             margin-bottom: 1.5rem;
         }
+
+        .approval-history-title {
+            color: #1e293b;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .approval-history-table th, .approval-history-table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .approval-history-table th {
+            background: #f1f5f9;
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+        .approval-history-table td {
+            background: #fff;
+        }
         @@media (max-width: 700px) {
             .main-content
 
@@ -126,7 +150,8 @@
             width: 120px;
         }
 
-        }</style>
+        }
+    </style>
 </head>
 <body>
     <!-- Admin Navbar (same as AdminList) -->
@@ -259,19 +284,86 @@
 
                 <!-- Approval Form -->
                 <div class="approval-form">
-                    @using (Html.BeginForm("Details", "Approval", FormMethod.Post))
+                    @if (Model.Status == LoanApplicationSystem2._0.Models.ApplicationStatus.Pending)
                     {
-                        @Html.AntiForgeryToken()
-                        @Html.Hidden("id", Model.Id)
-                        <div class="d-flex flex-wrap gap-2">
-                            <button type="submit" name="loanStatus" value="Approved" class="btn btn-approve">
-                                <i class="fa fa-check"></i> Approve
-                            </button>
-                            <button type="submit" name="loanStatus" value="Rejected" class="btn btn-reject">
-                                <i class="fa fa-times"></i> Reject
-                            </button>
+                        @using (Html.BeginForm("Details", "Approval", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.Hidden("id", Model.Id)
+                            <div class="mb-2">
+                                <label for="ApproverId" class="form-label">Approver ID</label>
+                                <input type="text" name="ApproverId" id="ApproverId" class="form-control" required />
+                            </div>
+                            <div class="mb-2">
+                                <label for="Comments" class="form-label">Comments</label>
+                                <textarea name="Comments" id="Comments" class="form-control" rows="2"></textarea>
+                            </div>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button type="submit" name="loanStatus" value="Approved" class="btn btn-approve">
+                                    <i class="fa fa-check"></i> Approve
+                                </button>
+                                <button type="submit" name="loanStatus" value="Rejected" class="btn btn-reject">
+                                    <i class="fa fa-times"></i> Reject
+                                </button>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="alert alert-info mb-0">
+                            This loan application has already been <strong>@Model.Status.ToString()</strong>. No further changes allowed.
                         </div>
                     }
+                </div>
+
+                <!-- Approval History Table -->
+                <div>
+                    <div class="approval-history-title">Approval History</div>
+                    <table class="table table-bordered approval-history-table">
+                        <thead>
+                            <tr>
+                                <th>Level</th>
+                                <th>Approver ID</th>
+                                <th>Status</th>
+                                <th>Comments</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (approvals != null && approvals.Count > 0)
+                            {
+                                foreach (var a in approvals.OrderByDescending(x => x.ApprovalDate))
+                                {
+                                    <tr>
+                                        <td>@a.ApprovalLevel</td>
+                                        <td>@a.ApproverId</td>
+                                        <td>
+                                            @if (a.ApprovalStatus == LoanApplicationSystem2._0.Models.ApprovalStatus.Approved)
+                                            {
+                                                <span class="badge bg-success">Approved</span>
+                                            }
+                                            else if (a.ApprovalStatus == LoanApplicationSystem2._0.Models.ApprovalStatus.Rejected)
+                                            {
+                                                <span class="badge bg-danger">Rejected</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-warning text-dark">Pending</span>
+                                            }
+                                        </td>
+                                        <td>@a.Comments</td>
+                                        <td>@a.ApprovalDate.ToShortDateString()</td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="5" class="text-center text-muted">No approval history found.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -279,3 +371,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

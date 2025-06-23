@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Priyasha\\Loan2-ritam_clean-upload\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\loanapplication2.0\\controllers\\disbursementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|solutionrelative:loanapplication2.0\\controllers\\disbursementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A14FC1-C5C5-469D-ABBC-D3AE9F872716}|CBLOS\\CBLOS.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\cblos\\loanapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A14FC1-C5C5-469D-ABBC-D3AE9F872716}|CBLOS\\CBLOS.csproj|solutionrelative:cblos\\loanapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Migrations\\20250623044502_Repayment non nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoanApplication2.0\\Migrations\\20250623044502_Repayment non nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A14FC1-C5C5-469D-ABBC-D3AE9F872716}|CBLOS\\CBLOS.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\cblos\\cblos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4A14FC1-C5C5-469D-ABBC-D3AE9F872716}|CBLOS\\CBLOS.csproj|solutionrelative:cblos\\cblos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\loanapplication2.0\\views\\disbursement\\tracking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|solutionrelative:loanapplication2.0\\views\\disbursement\\tracking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\loanapplication2.0\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|solutionrelative:loanapplication2.0\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\loanapplication2.0\\models\\disbursement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|solutionrelative:loanapplication2.0\\models\\disbursement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\loanapplication2.0\\models\\loanapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|solutionrelative:loanapplication2.0\\models\\loanapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\loanapplication2.0\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|solutionrelative:loanapplication2.0\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\loanapplication2.0\\services\\disbursementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|solutionrelative:loanapplication2.0\\services\\disbursementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|c:\\priyasha\\loan2-ritam_clean-upload\\loanapplication2.0\\views\\approval\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41622673-4E19-4117-9DA3-21A33E4B629E}|LoanApplication2.0\\LoanApplication2.0.csproj|solutionrelative:loanapplication2.0\\views\\approval\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 98,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,92 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250623044502_Repayment non nullable.cs",
-              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Migrations\\20250623044502_Repayment non nullable.cs",
-              "RelativeDocumentMoniker": "LoanApplication2.0\\Migrations\\20250623044502_Repayment non nullable.cs",
-              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Migrations\\20250623044502_Repayment non nullable.cs",
-              "RelativeToolTip": "LoanApplication2.0\\Migrations\\20250623044502_Repayment non nullable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:45:02.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoanApplication.cs",
-              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Models\\LoanApplication.cs",
-              "RelativeDocumentMoniker": "LoanApplication2.0\\Models\\LoanApplication.cs",
-              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Models\\LoanApplication.cs",
-              "RelativeToolTip": "LoanApplication2.0\\Models\\LoanApplication.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAmwD8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:38:45.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Disbursement.cs",
-              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Models\\Disbursement.cs",
-              "RelativeDocumentMoniker": "LoanApplication2.0\\Models\\Disbursement.cs",
-              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Models\\Disbursement.cs",
-              "RelativeToolTip": "LoanApplication2.0\\Models\\Disbursement.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:42:57.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Tracking.cshtml",
-              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Views\\Disbursement\\Tracking.cshtml",
-              "RelativeDocumentMoniker": "LoanApplication2.0\\Views\\Disbursement\\Tracking.cshtml",
-              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Views\\Disbursement\\Tracking.cshtml",
-              "RelativeToolTip": "LoanApplication2.0\\Views\\Disbursement\\Tracking.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwCgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T04:41:43.316Z",
+              "Title": "CBLOS",
+              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\CBLOS\\CBLOS.csproj",
+              "RelativeDocumentMoniker": "CBLOS\\CBLOS.csproj",
+              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\CBLOS\\CBLOS.csproj",
+              "RelativeToolTip": "CBLOS\\CBLOS.csproj",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-23T11:55:38.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DisbursementController.cs",
-              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Controllers\\DisbursementController.cs",
-              "RelativeDocumentMoniker": "LoanApplication2.0\\Controllers\\DisbursementController.cs",
-              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Controllers\\DisbursementController.cs",
-              "RelativeToolTip": "LoanApplication2.0\\Controllers\\DisbursementController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAhwDwAAAAIAAAAAAAAAA==",
+              "Title": "LoanApplicationTests.cs",
+              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\CBLOS\\LoanApplicationTests.cs",
+              "RelativeDocumentMoniker": "CBLOS\\LoanApplicationTests.cs",
+              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\CBLOS\\LoanApplicationTests.cs",
+              "RelativeToolTip": "CBLOS\\LoanApplicationTests.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwFUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:39:05.009Z",
+              "WhenOpened": "2025-06-23T11:54:12.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "LoanApplication2.0\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "LoanApplication2.0\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAsAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ApprovalController.cs",
+              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Controllers\\ApprovalController.cs",
+              "RelativeDocumentMoniker": "LoanApplication2.0\\Controllers\\ApprovalController.cs",
+              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Controllers\\ApprovalController.cs",
+              "RelativeToolTip": "LoanApplication2.0\\Controllers\\ApprovalController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:20:03.497Z",
+              "WhenOpened": "2025-06-23T07:21:29.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DisbursementService.cs",
-              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Services\\DisbursementService.cs",
-              "RelativeDocumentMoniker": "LoanApplication2.0\\Services\\DisbursementService.cs",
-              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Services\\DisbursementService.cs",
-              "RelativeToolTip": "LoanApplication2.0\\Services\\DisbursementService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T15:58:36.246Z"
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Views\\Approval\\Details.cshtml",
+              "RelativeDocumentMoniker": "LoanApplication2.0\\Views\\Approval\\Details.cshtml",
+              "ToolTip": "C:\\Priyasha\\Loan2-ritam_clean-upload\\LoanApplication2.0\\Views\\Approval\\Details.cshtml",
+              "RelativeToolTip": "LoanApplication2.0\\Views\\Approval\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T07:20:41.123Z"
             }
           ]
         }

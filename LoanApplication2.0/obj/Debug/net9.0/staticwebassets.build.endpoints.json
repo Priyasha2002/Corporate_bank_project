@@ -43,7 +43,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
+          "Value": "Mon, 23 Jun 2025 11:55:51 GMT"
         },
         {
           "Name": "Vary",
@@ -92,7 +92,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
+          "Value": "Mon, 23 Jun 2025 11:55:51 GMT"
         }
       ],
       "EndpointProperties": [
@@ -141,7 +141,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
+          "Value": "Mon, 23 Jun 2025 11:55:51 GMT"
         },
         {
           "Name": "Vary",
@@ -204,7 +204,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
+          "Value": "Mon, 23 Jun 2025 11:55:51 GMT"
         },
         {
           "Name": "Vary",
@@ -245,7 +245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
+          "Value": "Mon, 23 Jun 2025 11:55:51 GMT"
         }
       ],
       "EndpointProperties": [
@@ -286,7 +286,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 16:54:51 GMT"
+          "Value": "Mon, 23 Jun 2025 11:55:51 GMT"
         },
         {
           "Name": "Vary",
@@ -1225,6 +1225,88 @@
       ]
     },
     {
+      "Route": "documents/5123ae9b-6b89-46d0-9842-ec8bf9240c44_Cloud_Computing_Notes (1).7enkuc4dd8.pdf",
+      "AssetFile": "documents/5123ae9b-6b89-46d0-9842-ec8bf9240c44_Cloud_Computing_Notes (1).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kT7uYzovPNyaTsd/9Vddq4C6c2KNvpUCR3yWkSMeJ+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 07:23:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7enkuc4dd8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kT7uYzovPNyaTsd/9Vddq4C6c2KNvpUCR3yWkSMeJ+U="
+        },
+        {
+          "Name": "label",
+          "Value": "documents/5123ae9b-6b89-46d0-9842-ec8bf9240c44_Cloud_Computing_Notes (1).pdf"
+        }
+      ]
+    },
+    {
+      "Route": "documents/5123ae9b-6b89-46d0-9842-ec8bf9240c44_Cloud_Computing_Notes (1).pdf",
+      "AssetFile": "documents/5123ae9b-6b89-46d0-9842-ec8bf9240c44_Cloud_Computing_Notes (1).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kT7uYzovPNyaTsd/9Vddq4C6c2KNvpUCR3yWkSMeJ+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 07:23:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kT7uYzovPNyaTsd/9Vddq4C6c2KNvpUCR3yWkSMeJ+U="
+        }
+      ]
+    },
+    {
       "Route": "documents/52a9c352-40ba-496d-ae13-8c8734020985_Claims Management and Reporting & Analytics.khofqkfsnr.pdf",
       "AssetFile": "documents/52a9c352-40ba-496d-ae13-8c8734020985_Claims Management and Reporting & Analytics.pdf",
       "Selectors": [],
@@ -1713,6 +1795,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-H6HOrbqP2jVwp+4hd7s2sstyXHef9e5cjqGsjwhKEg4="
+        }
+      ]
+    },
+    {
+      "Route": "documents/c2e4c969-e23b-4a2d-a8cc-82562cec9592_Cloud_Computing_Notes (1).7enkuc4dd8.pdf",
+      "AssetFile": "documents/c2e4c969-e23b-4a2d-a8cc-82562cec9592_Cloud_Computing_Notes (1).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kT7uYzovPNyaTsd/9Vddq4C6c2KNvpUCR3yWkSMeJ+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 06:54:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7enkuc4dd8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kT7uYzovPNyaTsd/9Vddq4C6c2KNvpUCR3yWkSMeJ+U="
+        },
+        {
+          "Name": "label",
+          "Value": "documents/c2e4c969-e23b-4a2d-a8cc-82562cec9592_Cloud_Computing_Notes (1).pdf"
+        }
+      ]
+    },
+    {
+      "Route": "documents/c2e4c969-e23b-4a2d-a8cc-82562cec9592_Cloud_Computing_Notes (1).pdf",
+      "AssetFile": "documents/c2e4c969-e23b-4a2d-a8cc-82562cec9592_Cloud_Computing_Notes (1).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kT7uYzovPNyaTsd/9Vddq4C6c2KNvpUCR3yWkSMeJ+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 06:54:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kT7uYzovPNyaTsd/9Vddq4C6c2KNvpUCR3yWkSMeJ+U="
         }
       ]
     },

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanApplication2.0", "LoanApplication2.0\LoanApplication2.0.csproj", "{41622673-4E19-4117-9DA3-21A33E4B629E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBLOS", "CBLOS\CBLOS.csproj", "{F4A14FC1-C5C5-469D-ABBC-D3AE9F872716}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{41622673-4E19-4117-9DA3-21A33E4B629E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41622673-4E19-4117-9DA3-21A33E4B629E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41622673-4E19-4117-9DA3-21A33E4B629E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A14FC1-C5C5-469D-ABBC-D3AE9F872716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A14FC1-C5C5-469D-ABBC-D3AE9F872716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A14FC1-C5C5-469D-ABBC-D3AE9F872716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A14FC1-C5C5-469D-ABBC-D3AE9F872716}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
